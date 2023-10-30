@@ -1,0 +1,12 @@
+#Screen komutları
+#screen açmak için
+ screen -S screenadı 
+# Screen'e Giriş   screen -r screenadı 
+#  Screenleri görme     
+screen -ls 
+#Screen silme
+screen -XS screenadı quit 
+# Tüm screenleri silme
+pkill screen 
+# Attached screene girme 
+screen -d -r screenismi
